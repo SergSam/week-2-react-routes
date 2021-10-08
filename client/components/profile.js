@@ -8,8 +8,7 @@ const Profile = () => {
     <div>
       <Head title="Profile" />
       <div className="flex items-center justify-center ">
-        <div id="title"
-        >
+        <div id="title">
           Profile
           <div>
             <Link to="/dashboard">Go To Root</Link>

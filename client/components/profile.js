@@ -16,7 +16,9 @@ const Profile = () => {
             <div>
                 <Link to="/dashboard/main">Go To Main</Link>
             </div>
-            <div>{user}</div>
+            <div id="username">
+                {user}
+            </div>
         </div>
     )
 }
